@@ -15,19 +15,296 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
 
     <!--Font awesome-->
-    <link 
-    rel="stylesheet" 
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css"
-    integrity="sha512-rqQltXRuHxtPWhktpAZxLHUVJ3Eombn3hvk9PHjV/N5DMUYnzKPC1i3ub0mEXgFzsaZNeJcoE0YHq0j/GFsdGg=="
-    crossorigin="anonymous" 
-    referrerpolicy="no-referrer" 
-    >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css"
+        integrity="sha512-rqQltXRuHxtPWhktpAZxLHUVJ3Eombn3hvk9PHjV/N5DMUYnzKPC1i3ub0mEXgFzsaZNeJcoE0YHq0j/GFsdGg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
 
     <!--Styles-->
-    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/normalize.css">
 </head>
 
 <body>
+    <!--Black menu-->
+    <nav class="black-menu">
+        <div class="menu-item">
+            <i class=" menu-icon fas fa-city"></i>
+            <h3>Corporate</h3>
+        </div>
+
+        <div class="menu-item">
+            <i class=" menu-icon fas fa-archway"></i>
+            <h3>Worlwide</h3>
+        </div>
+
+        <div class="menu-item">
+            <i class=" menu-icon fas fa-envelope"></i>
+            <h3>Login</h3>
+        </div>
+    </nav>
+
+    <!--White menu-->
+
+    <nav class="white-menu">
+
+        <img src="./assets/photos/huawei_logo.webp" alt="" class="menu-logo">
+
+        <ul class="menu-options menu-desk">
+            <a href="#" class="white-menu-item">Consumer Products</a>
+            <a href="#" class="white-menu-item">Bussiness Products</a>
+            <a href="#" class="white-menu-item">Support</a>
+            <a href="#" class="white-menu-item">Partners & Developers</a>
+            <a href="#" class="white-menu-item">About Huawei</a>
+        </ul>
+
+        <div class="menu-icons">
+            <div class="single-icon-box">
+                <img src="./assets/icons/buy.png" alt="" class="single-icon">
+                <p class="buy-icon-text">Buy</p>
+            </div>
+            <div class="single-icon-box">
+                <img src="./assets/photos/search.png" alt="" class="single-icon">
+            </div>
+
+        </div>
+    </nav>
+
+    <!--Header-->
+    <header class="header">
+        <img src="./assets/photos/header.png" alt="" class="header-img">
+
+        <button class="header-btn">
+            Learn More
+        </button>
+    </header>
+
+    <!--What's new section-->
+    <section class="new-stuff-section">
+        <div class="wrapper">
+            <h1 class="wrapper-heading">What's new</h1>
+            <p class="wrapper-heading-underline">_____________</p>
+            <div class="wrapper-rows">
+                <div class="row">
+                    <img src="./assets/photos/watch.png" alt="" class="row-img watch-img">
+                    <img src="./assets/photos/girlnwatch.png" alt="" class="row-img">
+                </div>
+                <div class="row">
+                    <img src="./assets/photos/earbuds.png" alt="" class="row-img">
+                    <img src="./assets/photos/laptop.png" alt="" class="row-img laptop-img">
+                </div>
+                <div class="row">
+                    <img src="./assets/photos/airport.png" alt="" class="row-img">
+                    <img src="./assets/photos/nature.png" alt="" class="row-img">
+                    <img src="./assets/photos/magazine.png" alt="" class="row-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Mate40 section-->
+    <section class="mate40-section">
+        <img src="./assets/photos/secondbanner.png" alt="" class="mate40-banner">
+    </section>
+
+    <!--News and event section-->
+    <section class="newsAndEvent-section">
+        <div class="wrapper">
+            <h1 class="wrapper-heading">News & Events</h1>
+            <p class="wrapper-heading-underline">_____________</p>
+            <div class="events">
+
+                <!-- -->
+                <div class="event-box">
+                    <h4 class="event-tag">Event</h4>
+                    <img src="./assets/photos/city.png" alt="" class="event-img">
+                    <h2 class="event-name">NGON 2020 & Huawei Optical Innovation Forum 2020</h2>
+
+                    <div class="event-icons">
+                        <div class="single-event-icon location-icon-box">
+                            <img src="./assets/icons/location.png" alt="" class="location-icon">
+                            <h3 class="location icon-text">Webcast</h3>
+                        </div>
+                        <div class="single-event-icon date-icon-box">
+                            <img src="./assets/icons/calendar.png" alt="" class="date-icon">
+                            <h3 class="date icon-text">Nov 30, 2020t</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="event-box">
+                    <h4 class="event-tag">Event</h4>
+                    <img src="./assets/photos/city.png" alt="" class="event-img">
+                    <h2 class="event-name">Global mobile Broadband Form 2020</h2>
+                    <div class="event-icons">
+                        <div class="single-event-icon location-icon-box">
+                            <img src="./assets/icons/location.png" alt="" class="location-icon">
+                            <h3 class="location icon-text">Webcast</h3>
+                        </div>
+                        <div class="single-event-icon date-icon-box">
+                            <img src="./assets/icons/calendar.png" alt="" class="date-icon">
+                            <h3 class="date icon-text">Nov 30, 2020t</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="event-box many-post">
+                    <h4 class="event-tag tag-news">News</h4>
+                    <!---->
+                    <div class="news-post">
+                        <h2 class="news-title">Digital Power</h2>
+                        <h3 class="news-date">Jan 15, 2021</h3>
+                    </div>
+                    <div class="news-post">
+                        <h2 class="news-title">Huawei iMaster MAE Wins the 2020 Communication World Excellent Solution
+                        </h2>
+                        <h3 class="news-date">Jan 12, 2021</h3>
+                    </div>
+                    <div class="news-post">
+                        <h2 class="news-title">Huawei Recognized as a 2020 Gartner Peer Insights Customers' Choice for
+                            Data Center and Cloud Networking with the Highest Rating</h2>
+                        <h3 class="news-date">Jan 15, 2020</h3>
+                    </div>
+                    <div class="news-post">
+                        <h2 class="news-title">Huawei released Top 10 Trends of Digital Power</h2>
+                    </div>
+                    <!--  -->
+                    <div class="news-post">
+                        <h2 class="news-title">Digital Power</h2>
+                        <h3 class="news-date">Jan 15, 2021</h3>
+                    </div>
+                    <div class="news-post">
+                        <h2 class="news-title">Huawei iMaster MAE Wins the 2020 Communication World Excellent Solution
+                        </h2>
+                        <h3 class="news-date">Jan 12, 2021</h3>
+                    </div>
+                    <div class="news-post">
+                        <h2 class="news-title">Huawei Recognized as a 2020 Gartner Peer Insights Customers' Choice for
+                            Data Center and Cloud Networking with the Highest Rating</h2>
+                        <h3 class="news-date">Jan 15, 2020</h3>
+                    </div>
+                    <div class="news-post">
+                        <h2 class="news-title">Huawei released Top 10 Trends of Digital Power</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="events-btn-box">
+                <button class="btn-more-events">
+                    More Events
+                </button>
+                <button class="btn-more-news">
+                    More News
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section class="penultime-section">
+        <div class="wrapper">
+            <div class="top-row">
+                <p>Home</p>
+                <img src="./assets/photos/search.png" alt="" class="search-icon">
+            </div>
+            <div class="middle-row">
+                <div class="all-columns">
+
+                    <div class="column-1">
+                        <ul>
+                            <span class="column-title">About Huawei</span>
+                            <li class="column-item">Our company</li>
+                            <li class="column-item">Annual reports</li>
+                            <li class="column-item">Corporate Governance</li>
+                            <li class="column-item">Executives</li>
+                            <li class="column-item">Career</li>
+                            <li class="column-item">Contact us</li>
+                        </ul>
+                        <ul class="column-1-2nd">
+                            <li class="column-item">Sustainability</li>
+                            <li class="column-item">Trust center</li>
+                            <li class="column-item">Publick Policy</li>
+                            <li class="column-item">Industry Analysts</li>
+                            <li class="column-item">Bond investors</li>
+                            <li class="column-item">Suppliers</li>
+                        </ul>
+                    </div>
+
+                    <div class="column-2">
+                        <ul>
+                            <span class="column-title">News & Events
+                            </span>
+                            <li class="column-item">News</li>
+                            <li class="column-item">Events</li>
+                            <li class="column-item">Huawei live</li>
+                            <li class="column-item">Gallery</li>
+                            <li class="column-item">Huaweir Facts</li>
+                            <li class="column-item">test</li>
+                        </ul>
+                    </div>
+
+                    <div class="column-3">
+                        <ul>
+                            <span class="column-title">Discover
+                            </span>
+                            <li class="column-item">Success Stories</li>
+                            <li class="column-item">Industry Insights</li>
+                            <li class="column-item">Publications</li>
+                            <li class="column-item">Huawei blog</li>
+                        </ul>
+                    </div>
+
+                    <div class="column-4">
+                        <ul>
+                            <span class="column-title">Products
+                            </span>
+                            <li class="column-item">Consumer</li>
+                            <li class="column-item">Enterprise</li>
+                            <li class="column-item">Carrier</li>
+                            <li class="column-item">Huawei cloud</li>
+                        </ul>
+                    </div>
+
+                    <div class="column-5">
+                        <ul>
+                            <span class="column-title">Support</span>
+                            <li class="column-item">Consumer Support</li>
+                            <li class="column-item">Huawei Cloud Support</li>
+                            <li class="column-item">Enterprise Support</li>
+                            <li class="column-item">Carrier Support</li>
+                            <li class="column-item">Security Bulletins</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+            <div class="bottom-row">
+                <div class="words-box">
+                    <p class="word">Huawei Cloud</p>
+                    <p class="word">Fusion Solar Smart PV</p>
+                </div>
+                <div class="social-media">
+                    <img src="./assets/icons/linkedin.png" alt="" class="social-logo">
+                    <img src="./assets/icons/facebook.png" alt="" class="social-logo">
+                    <img src="./assets/icons/twitter.png" alt="" class="social-logo">
+                    <img src="./assets/icons/youtube.png" alt="" class="social-logo">
+                    <img src="./assets/icons/instagram.png" alt="" class="social-logo">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer-box">
+        <p class="footer-copyright">
+            ©2021 Huawei Technologies Co., Ltd.
+        </p>
+        <div class="footer-list">
+            <ul class="footer-item-box">
+                <li class="footer-item">Contact</li>
+                <li class="footer-item">Team of Use</li>
+                <li class="footer-item">Privacy</li>
+                <li class="footer-item">Cookies</li>
+            </ul>
+        </div>
+    </footer>
 
 </body>
 
